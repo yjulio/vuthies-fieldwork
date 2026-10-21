@@ -22,6 +22,7 @@ export function OpsView({
   asOf,
   onSelect,
   onProvince,
+  onRound,
 }: {
   interviews: Interview[];
   assignments: Assignment[];
@@ -29,6 +30,7 @@ export function OpsView({
   asOf: string;
   onSelect: (id: string) => void;
   onProvince: (province: string) => void;
+  onRound: (round: number) => void;
 }) {
   const summary = kpis(interviews, assignments, target);
   const steps = workflowSteps(interviews);
@@ -118,25 +120,27 @@ export function OpsView({
               const share = round.households ? round.hqApproved / round.households : 0;
               const empty = round.households === 0 && round.unopened === 0;
               return (
-                <div
+                <button
                   key={round.round}
+                  type="button"
                   title={
                     empty
                       ? `Round ${round.round}: not in this export`
                       : `Round ${round.round}: ${round.hqApproved} HQ approved of ${round.households} opened${round.unopened ? `, ${round.unopened} not yet opened` : ""}`
                   }
+                  onClick={() => onRound(round.round)}
                   className={`flex h-14 flex-col justify-end rounded-md border px-1 py-1 ${empty ? "border-dashed bg-muted/40" : "bg-accent/30"}`}
                 >
                   <div className="mx-auto w-full overflow-hidden rounded-sm bg-muted" style={{ height: 18 }}>
                     <div className="bg-primary" style={{ width: `${share * 100}%`, height: "100%" }} />
                   </div>
                   <span className="mt-1 text-center text-[10px] text-muted-foreground">{round.round}</span>
-                </div>
+                </button>
               );
             })}
           </div>
           <p className="mt-2 text-xs text-muted-foreground">
-            Each cell is a survey round. The bar is the share already approved by headquarters. Dashed cells are outside this export.
+            Each cell is one of the 32 rounds. The bar is the share already approved by headquarters. Open Rounds for the comparison charts.
           </p>
         </div>
         <div className="rounded-2xl border bg-card p-4">

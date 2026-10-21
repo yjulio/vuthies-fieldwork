@@ -5,6 +5,7 @@ import { parseSurveyExport } from "../src/lib/suso/parse";
 import { parseDurationMinutes, parseDelimited } from "../src/lib/suso/table";
 import { unzipSurvey, zipTextFiles } from "../src/lib/suso/zip";
 import { kpis } from "../src/lib/fieldwork/metrics";
+import { roundComparison } from "../src/lib/fieldwork/rounds";
 
 test("duration uses Survey Solutions DD.HH:MM:SS", () => {
   assert.equal(parseDurationMinutes("00.01:30:00"), 90);
@@ -52,6 +53,13 @@ test("demonstration extract parses into a fieldwork snapshot", () => {
   assert.ok(summary.responseRate != null && summary.responseRate > 0.7 && summary.responseRate < 0.98);
   assert.ok((summary.medianDuration ?? 0) > 60);
   assert.ok(snapshot.interviews.some((interview) => (interview.members ?? 0) >= 2));
+
+  const rounds = roundComparison(snapshot.interviews, snapshot.assignments);
+  assert.equal(rounds.length, 32);
+  assert.equal(rounds[0].households > 0, true);
+  assert.ok(rounds[0].hqApproved / rounds[0].households > (rounds[19].hqApproved / rounds[19].households));
+  assert.equal(rounds[31].households, 0);
+  assert.ok(rounds[20].unopened > 0);
 });
 
 test("zip roundtrip keeps the cover file", async () => {

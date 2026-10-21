@@ -10,6 +10,7 @@ import { GeographyView } from "@/components/dashboard/geography-view";
 import { LoadDialog } from "@/components/dashboard/load-dialog";
 import { OpsView } from "@/components/dashboard/ops-view";
 import { QualityView } from "@/components/dashboard/quality-view";
+import { RoundsView } from "@/components/dashboard/rounds-view";
 import { TeamsView } from "@/components/dashboard/teams-view";
 import { applyFilters, bucketOptions, flagOptions } from "@/lib/fieldwork/metrics";
 import { BUCKET_LABEL, FLAG_LABEL } from "@/lib/suso/codes";
@@ -17,6 +18,7 @@ import { EMPTY_FILTERS, type FieldworkSnapshot, type Filters } from "@/lib/field
 
 const VIEWS = [
   { id: "ops", label: "Operations" },
+  { id: "rounds", label: "Rounds" },
   { id: "geography", label: "Geography" },
   { id: "teams", label: "Teams" },
   { id: "quality", label: "Quality" },
@@ -34,6 +36,10 @@ export function Desk({ initial }: { initial: FieldworkSnapshot }) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   const filtered = useMemo(() => applyFilters(snapshot.interviews, filters), [snapshot.interviews, filters]);
+  const roundScope = useMemo(
+    () => applyFilters(snapshot.interviews, { ...filters, round: "" }),
+    [snapshot.interviews, filters],
+  );
   const selected = snapshot.interviews.find((interview) => interview.id === selectedId) ?? null;
   const provinces = unique(snapshot.interviews.map((interview) => interview.province));
   const islands = unique(
@@ -189,6 +195,20 @@ export function Desk({ initial }: { initial: FieldworkSnapshot }) {
               patch({ province, island: "" });
               setView("geography");
             }}
+            onRound={(round) => {
+              patch({ round: String(round) });
+              setView("rounds");
+            }}
+          />
+        )}
+        {view === "rounds" && (
+          <RoundsView
+            interviews={roundScope}
+            assignments={snapshot.assignments}
+            province={filters.province}
+            island={filters.island}
+            activeRound={filters.round}
+            onSelectRound={(round) => patch({ round })}
           />
         )}
         {view === "geography" && (

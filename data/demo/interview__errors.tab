@@ -1,0 +1,181 @@
+interview__key	interview__id	variable	type	message__number	message
+10-00-00-33	00000000000000000000000000000021	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-33	00000000000000000000000000000021	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-33	00000000000000000000000000000021	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-00-38	00000000000000000000000000000026	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-38	00000000000000000000000000000026	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-38	00000000000000000000000000000026	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-00-38	00000000000000000000000000000026	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-00-38	00000000000000000000000000000026	gps	2	5	GPS accuracy is above 30 metres.
+10-00-00-38	00000000000000000000000000000026	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-00-44	0000000000000000000000000000002c	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-44	0000000000000000000000000000002c	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-44	0000000000000000000000000000002c	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-00-48	00000000000000000000000000000030	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-48	00000000000000000000000000000030	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-72	00000000000000000000000000000048	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-74	0000000000000000000000000000004a	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-74	0000000000000000000000000000004a	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-74	0000000000000000000000000000004a	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-00-84	00000000000000000000000000000054	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-84	00000000000000000000000000000054	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-84	00000000000000000000000000000054	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-00-87	00000000000000000000000000000057	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-87	00000000000000000000000000000057	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-89	00000000000000000000000000000059	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-89	00000000000000000000000000000059	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-93	0000000000000000000000000000005d	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-93	0000000000000000000000000000005d	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-97	00000000000000000000000000000061	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-97	00000000000000000000000000000061	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-98	00000000000000000000000000000062	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-00-98	00000000000000000000000000000062	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-00-98	00000000000000000000000000000062	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-01-30	00000000000000000000000000000082	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-30	00000000000000000000000000000082	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-33	00000000000000000000000000000085	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-33	00000000000000000000000000000085	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-38	0000000000000000000000000000008a	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-38	0000000000000000000000000000008a	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-38	0000000000000000000000000000008a	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-01-38	0000000000000000000000000000008a	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-01-38	0000000000000000000000000000008a	gps	2	5	GPS accuracy is above 30 metres.
+10-00-01-38	0000000000000000000000000000008a	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-01-41	0000000000000000000000000000008d	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-51	00000000000000000000000000000097	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-51	00000000000000000000000000000097	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-55	0000000000000000000000000000009b	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-55	0000000000000000000000000000009b	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-55	0000000000000000000000000000009b	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-01-86	000000000000000000000000000000ba	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-86	000000000000000000000000000000ba	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-86	000000000000000000000000000000ba	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-01-92	000000000000000000000000000000c0	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-92	000000000000000000000000000000c0	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-95	000000000000000000000000000000c3	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-01-95	000000000000000000000000000000c3	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-01-95	000000000000000000000000000000c3	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-01-95	000000000000000000000000000000c3	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-01-95	000000000000000000000000000000c3	gps	2	5	GPS accuracy is above 30 metres.
+10-00-01-95	000000000000000000000000000000c3	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-02-11	000000000000000000000000000000d3	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-11	000000000000000000000000000000d3	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-02-11	000000000000000000000000000000d3	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-02-11	000000000000000000000000000000d3	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-02-11	000000000000000000000000000000d3	gps	2	5	GPS accuracy is above 30 metres.
+10-00-02-11	000000000000000000000000000000d3	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-02-16	000000000000000000000000000000d8	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-17	000000000000000000000000000000d9	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-23	000000000000000000000000000000df	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-23	000000000000000000000000000000df	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-02-23	000000000000000000000000000000df	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-02-23	000000000000000000000000000000df	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-02-23	000000000000000000000000000000df	gps	2	5	GPS accuracy is above 30 metres.
+10-00-02-23	000000000000000000000000000000df	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-02-24	000000000000000000000000000000e0	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-24	000000000000000000000000000000e0	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-02-24	000000000000000000000000000000e0	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-02-28	000000000000000000000000000000e4	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-28	000000000000000000000000000000e4	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-02-31	000000000000000000000000000000e7	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-31	000000000000000000000000000000e7	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-02-31	000000000000000000000000000000e7	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-02-65	00000000000000000000000000000109	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-75	00000000000000000000000000000113	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-79	00000000000000000000000000000117	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-79	00000000000000000000000000000117	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-02-86	0000000000000000000000000000011e	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-99	0000000000000000000000000000012b	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-02-99	0000000000000000000000000000012b	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-02-99	0000000000000000000000000000012b	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-02-99	0000000000000000000000000000012b	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-02-99	0000000000000000000000000000012b	gps	2	5	GPS accuracy is above 30 metres.
+10-00-02-99	0000000000000000000000000000012b	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-03-00	0000000000000000000000000000012c	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-03-00	0000000000000000000000000000012c	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-03-00	0000000000000000000000000000012c	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-03-14	0000000000000000000000000000013a	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-03-14	0000000000000000000000000000013a	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-03-14	0000000000000000000000000000013a	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-03-14	0000000000000000000000000000013a	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-03-14	0000000000000000000000000000013a	gps	2	5	GPS accuracy is above 30 metres.
+10-00-03-14	0000000000000000000000000000013a	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-03-30	0000000000000000000000000000014a	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-03-30	0000000000000000000000000000014a	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-03-30	0000000000000000000000000000014a	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-03-30	0000000000000000000000000000014a	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-03-30	0000000000000000000000000000014a	gps	2	5	GPS accuracy is above 30 metres.
+10-00-03-30	0000000000000000000000000000014a	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-03-79	0000000000000000000000000000017b	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-03-79	0000000000000000000000000000017b	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-03-86	00000000000000000000000000000182	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-00	00000000000000000000000000000190	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-06	00000000000000000000000000000196	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-06	00000000000000000000000000000196	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-06	00000000000000000000000000000196	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-04-06	00000000000000000000000000000196	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-04-06	00000000000000000000000000000196	gps	2	5	GPS accuracy is above 30 metres.
+10-00-04-06	00000000000000000000000000000196	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-04-27	000000000000000000000000000001ab	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-29	000000000000000000000000000001ad	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-29	000000000000000000000000000001ad	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-29	000000000000000000000000000001ad	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-04-29	000000000000000000000000000001ad	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-04-29	000000000000000000000000000001ad	gps	2	5	GPS accuracy is above 30 metres.
+10-00-04-29	000000000000000000000000000001ad	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-04-30	000000000000000000000000000001ae	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-30	000000000000000000000000000001ae	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-40	000000000000000000000000000001b8	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-40	000000000000000000000000000001b8	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-40	000000000000000000000000000001b8	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-04-67	000000000000000000000000000001d3	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-67	000000000000000000000000000001d3	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-67	000000000000000000000000000001d3	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-04-67	000000000000000000000000000001d3	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-04-67	000000000000000000000000000001d3	gps	2	5	GPS accuracy is above 30 metres.
+10-00-04-67	000000000000000000000000000001d3	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-04-71	000000000000000000000000000001d7	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-71	000000000000000000000000000001d7	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-82	000000000000000000000000000001e2	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-82	000000000000000000000000000001e2	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-82	000000000000000000000000000001e2	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-04-82	000000000000000000000000000001e2	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-04-82	000000000000000000000000000001e2	gps	2	5	GPS accuracy is above 30 metres.
+10-00-04-82	000000000000000000000000000001e2	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-04-87	000000000000000000000000000001e7	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-04-87	000000000000000000000000000001e7	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-04-98	000000000000000000000000000001f2	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-17	00000000000000000000000000000205	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-17	00000000000000000000000000000205	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-05-17	00000000000000000000000000000205	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-05-27	0000000000000000000000000000020f	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-36	00000000000000000000000000000218	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-43	0000000000000000000000000000021f	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-43	0000000000000000000000000000021f	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-05-43	0000000000000000000000000000021f	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-05-44	00000000000000000000000000000220	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-44	00000000000000000000000000000220	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-05-44	00000000000000000000000000000220	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-05-50	00000000000000000000000000000226	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-61	00000000000000000000000000000231	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-71	0000000000000000000000000000023b	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-71	0000000000000000000000000000023b	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-05-71	0000000000000000000000000000023b	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-05-71	0000000000000000000000000000023b	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-05-71	0000000000000000000000000000023b	gps	2	5	GPS accuracy is above 30 metres.
+10-00-05-71	0000000000000000000000000000023b	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-05-73	0000000000000000000000000000023d	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-73	0000000000000000000000000000023d	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-05-79	00000000000000000000000000000243	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-91	0000000000000000000000000000024f	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-91	0000000000000000000000000000024f	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-05-91	0000000000000000000000000000024f	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-05-91	0000000000000000000000000000024f	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-05-91	0000000000000000000000000000024f	gps	2	5	GPS accuracy is above 30 metres.
+10-00-05-91	0000000000000000000000000000024f	rent	2	6	Rent is recorded for a dwelling the household owns.
+10-00-05-95	00000000000000000000000000000253	age	2	1	Age is lower than the age reported for a child of this person.
+10-00-05-95	00000000000000000000000000000253	diary_day	2	2	A diary day has no purchases and no explanation code.
+10-00-05-95	00000000000000000000000000000253	hh_size	2	3	Household size does not match the number of roster rows.
+10-00-05-95	00000000000000000000000000000253	hours_worked	2	4	Wage income is recorded but days worked are missing.
+10-00-05-95	00000000000000000000000000000253	gps	2	5	GPS accuracy is above 30 metres.
+10-00-05-95	00000000000000000000000000000253	rent	2	6	Rent is recorded for a dwelling the household owns.

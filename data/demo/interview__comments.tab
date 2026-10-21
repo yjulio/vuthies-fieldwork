@@ -1,0 +1,122 @@
+interview__key	interview__id	variable	order	date	time	originator	role	comment
+10-00-00-06	00000000000000000000000000000006	hh_size	1	2026-03-25	07:17:48	sup.torba	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-00-06	00000000000000000000000000000006	diary_day	2	2026-03-31	17:04:48	hq.review.01	3	A required question in the housing module is still empty.
+10-00-00-07	00000000000000000000000000000007	hh_size	3	2026-04-04	07:53:41	sup.torba	2	Roster age and date of birth disagree for one member.
+10-00-00-07	00000000000000000000000000000007	diary_day	4	2026-04-09	17:49:04	hq.review.02	3	A required question in the housing module is still empty.
+10-00-00-12	0000000000000000000000000000000c	hh_size	5	2026-04-04	16:58:14	sup.torba	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-00-12	0000000000000000000000000000000c	diary_day	6	2026-04-09	07:33:53	hq.review.02	3	The household result and the roster count do not agree.
+10-00-00-15	0000000000000000000000000000000f	hh_size	7	2026-04-12	07:03:38	sup.torba	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-00-19	00000000000000000000000000000013	diary_day	8	2026-04-29	08:21:36	hq.review.02	3	Wage job is recorded with zero hours worked.
+10-00-00-32	00000000000000000000000000000020	hh_size	9	2026-05-20	07:41:14	sup.torba	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-00-32	00000000000000000000000000000020	diary_day	10	2026-05-27	10:40:41	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-00-48	00000000000000000000000000000030	hh_size	11	2026-06-11	16:47:10	sup.torba	2	A required question in the housing module is still empty.
+10-00-00-48	00000000000000000000000000000030	diary_day	12	2026-06-18	13:02:32	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-00-65	00000000000000000000000000000041	hh_size	13	2026-07-11	14:59:49	sup.sanma	2	Food away from home is missing for two members.
+10-00-00-65	00000000000000000000000000000041	diary_day	14	2026-07-16	12:23:57	hq.review.01	3	Roster age and date of birth disagree for one member.
+10-00-00-72	00000000000000000000000000000048	hh_size	15	2026-07-22	11:29:18	sup.sanma	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-00-72	00000000000000000000000000000048	diary_day	16	2026-07-27	10:25:40	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-00-82	00000000000000000000000000000052	hh_size	17	2026-08-15	17:21:22	sup.sanma	2	A required question in the housing module is still empty.
+10-00-00-82	00000000000000000000000000000052	diary_day	18	2026-08-21	07:38:37	hq.review.02	3	Wage job is recorded with zero hours worked.
+10-00-00-87	00000000000000000000000000000057	hh_size	19	2026-08-25	16:31:12	sup.sanma	2	Food away from home is missing for two members.
+10-00-00-87	00000000000000000000000000000057	diary_day	20	2026-08-30	16:16:12	hq.review.01	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-00-89	00000000000000000000000000000059	hh_size	21	2026-08-26	07:52:27	sup.sanma	2	Roster age and date of birth disagree for one member.
+10-00-00-89	00000000000000000000000000000059	diary_day	22	2026-08-31	15:32:15	hq.review.01	3	Wage job is recorded with zero hours worked.
+10-00-01-00	00000000000000000000000000000064	diary_day	23	2026-09-19	08:19:56	hq.review.01	3	Roster age and date of birth disagree for one member.
+10-00-01-06	0000000000000000000000000000006a	hh_size	24	2026-09-30	08:55:34	sup.sanma	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-01-06	0000000000000000000000000000006a	diary_day	25	2026-10-07	11:21:10	hq.review.02	3	Roster age and date of birth disagree for one member.
+10-00-01-08	0000000000000000000000000000006c	diary_day	26	2026-09-30	11:10:41	hq.review.02	3	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-01-11	0000000000000000000000000000006f	hh_size	27	2026-10-07	10:55:48	sup.sanma	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-01-12	00000000000000000000000000000070	diary_day	28	2026-10-12	13:07:54	hq.review.01	3	Food away from home is missing for two members.
+10-00-01-13	00000000000000000000000000000071	hh_size	29	2026-10-03	14:25:30	sup.sanma	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-01-17	00000000000000000000000000000075	hh_size	30	2026-10-14	13:14:08	sup.sanma	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-01-18	00000000000000000000000000000076	hh_size	31	2026-10-18	09:03:55	sup.sanma	2	Wage job is recorded with zero hours worked.
+10-00-01-22	0000000000000000000000000000007a	diary_day	32	2026-03-28	07:46:39	hq.review.01	3	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-01-29	00000000000000000000000000000081	diary_day	33	2026-04-03	16:14:57	hq.review.02	3	Food away from home is missing for two members.
+10-00-01-31	00000000000000000000000000000083	hh_size	34	2026-04-04	15:39:28	sup.sanma	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-01-31	00000000000000000000000000000083	diary_day	35	2026-04-09	14:52:55	hq.review.02	3	Wage job is recorded with zero hours worked.
+10-00-01-66	000000000000000000000000000000a6	hh_size	36	2026-06-09	15:37:03	sup.sanma	2	A required question in the housing module is still empty.
+10-00-01-66	000000000000000000000000000000a6	diary_day	37	2026-06-14	11:23:14	hq.review.02	3	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-01-74	000000000000000000000000000000ae	diary_day	38	2026-06-23	10:04:57	hq.review.01	3	Wage job is recorded with zero hours worked.
+10-00-02-13	000000000000000000000000000000d5	diary_day	39	2026-09-06	14:04:57	hq.review.02	3	Food away from home is missing for two members.
+10-00-02-27	000000000000000000000000000000e3	hh_size	40	2026-09-30	07:38:03	sup.penama	2	The household result and the roster count do not agree.
+10-00-02-27	000000000000000000000000000000e3	diary_day	41	2026-10-07	16:15:03	hq.review.02	3	A required question in the housing module is still empty.
+10-00-02-29	000000000000000000000000000000e5	diary_day	42	2026-10-11	12:00:12	hq.review.01	3	The household result and the roster count do not agree.
+10-00-02-32	000000000000000000000000000000e8	hh_size	43	2026-10-09	08:51:36	sup.penama	2	A required question in the housing module is still empty.
+10-00-02-32	000000000000000000000000000000e8	diary_day	44	2026-10-14	12:06:54	hq.review.01	3	Food away from home is missing for two members.
+10-00-02-33	000000000000000000000000000000e9	hh_size	45	2026-10-05	12:19:34	sup.penama	2	Wage job is recorded with zero hours worked.
+10-00-02-56	00000000000000000000000000000100	hh_size	46	2026-04-14	09:08:20	sup.penama	2	The household result and the roster count do not agree.
+10-00-02-56	00000000000000000000000000000100	diary_day	47	2026-04-19	11:28:32	hq.review.01	3	Food away from home is missing for two members.
+10-00-02-85	0000000000000000000000000000011d	hh_size	48	2026-06-08	12:56:49	sup.malampa	2	A required question in the housing module is still empty.
+10-00-02-85	0000000000000000000000000000011d	diary_day	49	2026-06-13	08:21:04	hq.review.02	3	A required question in the housing module is still empty.
+10-00-02-88	00000000000000000000000000000120	hh_size	50	2026-06-11	14:04:09	sup.malampa	2	A required question in the housing module is still empty.
+10-00-02-88	00000000000000000000000000000120	diary_day	51	2026-06-18	14:46:19	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-02-93	00000000000000000000000000000125	hh_size	52	2026-06-21	15:15:28	sup.malampa	2	Wage job is recorded with zero hours worked.
+10-00-02-93	00000000000000000000000000000125	diary_day	53	2026-06-26	14:11:16	hq.review.01	3	Roster age and date of birth disagree for one member.
+10-00-03-03	0000000000000000000000000000012f	hh_size	54	2026-07-14	09:12:13	sup.malampa	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-03-03	0000000000000000000000000000012f	diary_day	55	2026-07-21	13:50:54	hq.review.01	3	The household result and the roster count do not agree.
+10-00-03-11	00000000000000000000000000000137	hh_size	56	2026-07-20	11:21:22	sup.malampa	2	The household result and the roster count do not agree.
+10-00-03-15	0000000000000000000000000000013b	hh_size	57	2026-07-29	08:37:41	sup.malampa	2	Food away from home is missing for two members.
+10-00-03-20	00000000000000000000000000000140	hh_size	58	2026-08-15	10:23:37	sup.malampa	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-03-20	00000000000000000000000000000140	diary_day	59	2026-08-20	13:36:45	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-03-37	00000000000000000000000000000151	hh_size	60	2026-09-18	14:37:04	sup.malampa	2	The household result and the roster count do not agree.
+10-00-03-37	00000000000000000000000000000151	diary_day	61	2026-09-24	08:01:33	hq.review.01	3	The household result and the roster count do not agree.
+10-00-03-42	00000000000000000000000000000156	hh_size	62	2026-09-19	11:03:32	sup.malampa	2	The household result and the roster count do not agree.
+10-00-03-42	00000000000000000000000000000156	diary_day	63	2026-09-26	09:57:30	hq.review.01	3	The household result and the roster count do not agree.
+10-00-03-54	00000000000000000000000000000162	hh_size	64	2026-10-05	10:11:05	sup.malampa	2	Food away from home is missing for two members.
+10-00-03-56	00000000000000000000000000000164	hh_size	65	2026-10-17	17:14:00	sup.malampa	2	The household result and the roster count do not agree.
+10-00-03-73	00000000000000000000000000000175	hh_size	66	2026-04-18	15:41:43	sup.shefa	2	A required question in the housing module is still empty.
+10-00-03-73	00000000000000000000000000000175	diary_day	67	2026-04-25	07:54:47	hq.review.01	3	Roster age and date of birth disagree for one member.
+10-00-03-74	00000000000000000000000000000176	hh_size	68	2026-04-15	16:08:10	sup.shefa	2	A required question in the housing module is still empty.
+10-00-03-74	00000000000000000000000000000176	diary_day	69	2026-04-20	17:01:56	hq.review.01	3	The household result and the roster count do not agree.
+10-00-03-80	0000000000000000000000000000017c	hh_size	70	2026-04-25	15:11:24	sup.shefa	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-03-80	0000000000000000000000000000017c	diary_day	71	2026-04-30	09:33:16	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-03-81	0000000000000000000000000000017d	hh_size	72	2026-04-21	16:04:19	sup.shefa	2	Wage job is recorded with zero hours worked.
+10-00-03-83	0000000000000000000000000000017f	hh_size	73	2026-04-26	17:09:20	sup.shefa	2	Roster age and date of birth disagree for one member.
+10-00-03-83	0000000000000000000000000000017f	diary_day	74	2026-05-01	17:06:32	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-03-84	00000000000000000000000000000180	hh_size	75	2026-04-26	07:19:59	sup.shefa	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-04-12	0000000000000000000000000000019c	diary_day	76	2026-06-23	16:56:05	hq.review.01	3	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-04-13	0000000000000000000000000000019d	hh_size	77	2026-06-22	07:31:06	sup.shefa	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-04-13	0000000000000000000000000000019d	diary_day	78	2026-06-29	09:12:25	hq.review.01	3	A required question in the housing module is still empty.
+10-00-04-15	0000000000000000000000000000019f	hh_size	79	2026-06-30	08:41:40	sup.shefa	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-04-25	000000000000000000000000000001a9	hh_size	80	2026-07-15	15:21:07	sup.shefa	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-04-25	000000000000000000000000000001a9	diary_day	81	2026-07-22	15:19:45	hq.review.01	3	Food away from home is missing for two members.
+10-00-04-46	000000000000000000000000000001be	hh_size	82	2026-08-26	17:52:58	sup.shefa	2	A required question in the housing module is still empty.
+10-00-04-46	000000000000000000000000000001be	diary_day	83	2026-09-01	14:02:28	hq.review.01	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-04-50	000000000000000000000000000001c2	hh_size	84	2026-08-26	16:14:33	sup.shefa	2	Roster age and date of birth disagree for one member.
+10-00-04-50	000000000000000000000000000001c2	diary_day	85	2026-09-01	14:41:57	hq.review.01	3	Roster age and date of birth disagree for one member.
+10-00-04-52	000000000000000000000000000001c4	hh_size	86	2026-09-06	08:18:43	sup.shefa	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-04-52	000000000000000000000000000001c4	diary_day	87	2026-09-12	11:24:15	hq.review.02	3	The household result and the roster count do not agree.
+10-00-04-54	000000000000000000000000000001c6	diary_day	88	2026-09-09	07:49:58	hq.review.02	3	A required question in the housing module is still empty.
+10-00-04-55	000000000000000000000000000001c7	hh_size	89	2026-09-07	15:52:08	sup.shefa	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-04-55	000000000000000000000000000001c7	diary_day	90	2026-09-13	08:17:52	hq.review.02	3	Roster age and date of birth disagree for one member.
+10-00-04-59	000000000000000000000000000001cb	hh_size	91	2026-09-17	13:33:20	sup.shefa	2	Wage job is recorded with zero hours worked.
+10-00-04-59	000000000000000000000000000001cb	diary_day	92	2026-09-22	17:07:35	hq.review.01	3	Wage job is recorded with zero hours worked.
+10-00-04-69	000000000000000000000000000001d5	diary_day	93	2026-10-11	12:26:02	hq.review.01	3	Food away from home is missing for two members.
+10-00-04-73	000000000000000000000000000001d9	diary_day	94	2026-10-11	09:52:56	hq.review.01	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-04-85	000000000000000000000000000001e5	diary_day	95	2026-03-25	13:22:30	hq.review.01	3	A required question in the housing module is still empty.
+10-00-04-87	000000000000000000000000000001e7	hh_size	96	2026-04-01	13:53:29	sup.shefa	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-04-88	000000000000000000000000000001e8	hh_size	97	2026-04-05	16:23:46	sup.shefa	2	Food away from home is missing for two members.
+10-00-04-88	000000000000000000000000000001e8	diary_day	98	2026-04-11	08:57:07	hq.review.02	3	The household result and the roster count do not agree.
+10-00-04-89	000000000000000000000000000001e9	hh_size	99	2026-04-03	12:56:08	sup.shefa	2	A required question in the housing module is still empty.
+10-00-04-91	000000000000000000000000000001eb	hh_size	100	2026-04-04	11:49:32	sup.shefa	2	Roster age and date of birth disagree for one member.
+10-00-04-91	000000000000000000000000000001eb	diary_day	101	2026-04-09	08:06:08	hq.review.02	3	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-05-15	00000000000000000000000000000203	hh_size	102	2026-05-19	16:29:11	sup.tafea	2	Food away from home is missing for two members.
+10-00-05-15	00000000000000000000000000000203	diary_day	103	2026-05-24	11:28:00	hq.review.02	3	Food away from home is missing for two members.
+10-00-05-17	00000000000000000000000000000205	hh_size	104	2026-05-30	17:56:18	sup.tafea	2	Roster age and date of birth disagree for one member.
+10-00-05-17	00000000000000000000000000000205	diary_day	105	2026-06-04	07:37:09	hq.review.01	3	Food away from home is missing for two members.
+10-00-05-34	00000000000000000000000000000216	hh_size	106	2026-06-20	14:48:39	sup.tafea	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-05-34	00000000000000000000000000000216	diary_day	107	2026-06-25	10:14:08	hq.review.01	3	Wage job is recorded with zero hours worked.
+10-00-05-45	00000000000000000000000000000221	diary_day	108	2026-07-16	15:59:40	hq.review.01	3	Roster age and date of birth disagree for one member.
+10-00-05-53	00000000000000000000000000000229	hh_size	109	2026-08-03	16:16:29	sup.tafea	2	Wage job is recorded with zero hours worked.
+10-00-05-53	00000000000000000000000000000229	diary_day	110	2026-08-08	09:46:13	hq.review.01	3	The household result and the roster count do not agree.
+10-00-05-63	00000000000000000000000000000233	hh_size	111	2026-08-10	12:27:59	sup.tafea	2	Diary day 3 is blank. Revisit or record the away-from-home code.
+10-00-05-74	0000000000000000000000000000023e	hh_size	112	2026-09-05	16:17:49	sup.tafea	2	The household result and the roster count do not agree.
+10-00-05-74	0000000000000000000000000000023e	diary_day	113	2026-09-10	12:05:29	hq.review.02	3	Wage job is recorded with zero hours worked.
+10-00-05-82	00000000000000000000000000000246	hh_size	114	2026-09-16	15:28:37	sup.tafea	2	Food away from home is missing for two members.
+10-00-05-82	00000000000000000000000000000246	diary_day	115	2026-09-21	08:11:53	hq.review.01	3	Wage job is recorded with zero hours worked.
+10-00-05-88	0000000000000000000000000000024c	diary_day	116	2026-09-27	08:48:37	hq.review.02	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-05-92	00000000000000000000000000000250	hh_size	117	2026-10-06	09:41:32	sup.tafea	2	Food away from home is missing for two members.
+10-00-05-93	00000000000000000000000000000251	diary_day	118	2026-10-07	15:50:32	hq.review.01	3	GPS was captured on the road. Recapture at the dwelling.
+10-00-05-96	00000000000000000000000000000254	hh_size	119	2026-10-15	11:57:11	sup.tafea	2	Food away from home is missing for two members.
+10-00-05-99	00000000000000000000000000000257	hh_size	120	2026-10-15	07:37:13	sup.tafea	2	GPS was captured on the road. Recapture at the dwelling.
+10-00-06-00	00000000000000000000000000000258	hh_size	121	2026-10-14	11:29:10	sup.tafea	2	GPS was captured on the road. Recapture at the dwelling.

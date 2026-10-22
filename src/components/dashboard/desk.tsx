@@ -9,6 +9,7 @@ import { CollectionBar } from "@/components/dashboard/collection-bar";
 import { formatDate } from "@/components/dashboard/format";
 import { GeographyView } from "@/components/dashboard/geography-view";
 import { LoadDialog } from "@/components/dashboard/load-dialog";
+import { MatBand, SandMark } from "@/components/dashboard/melanesian-pattern";
 import { OpsView } from "@/components/dashboard/ops-view";
 import { QualityView } from "@/components/dashboard/quality-view";
 import { RoundsView } from "@/components/dashboard/rounds-view";
@@ -72,12 +73,18 @@ export function Desk({ initial }: { initial: FieldworkSnapshot }) {
   }
 
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 py-5 sm:px-6">
-      <header className="flex flex-col gap-4 border-b pb-4 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <p className="text-xs tracking-[0.18em] text-primary uppercase">Vanuatu Bureau of Statistics</p>
-          <h1 className="font-display text-3xl leading-tight sm:text-4xl">VUTHIES 2026–27</h1>
-          <p className="text-sm text-muted-foreground">Household income and expenditure survey · fieldwork monitoring desk</p>
+    <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 sm:px-6">
+      <div className="pattern-bleed">
+        <MatBand id="mat-top" className="block h-11 w-full" />
+      </div>
+      <header className="flex flex-col gap-4 border-b border-border/80 py-5 sm:flex-row sm:items-end sm:justify-between">
+        <div className="flex items-center gap-3">
+          <SandMark className="h-16 w-16 shrink-0 sm:h-[4.5rem] sm:w-[4.5rem]" />
+          <div>
+            <p className="text-xs tracking-[0.18em] text-primary uppercase">Vanuatu Bureau of Statistics</p>
+            <h1 className="font-display text-3xl leading-tight sm:text-4xl">VUTHIES 2026–27</h1>
+            <p className="text-sm text-muted-foreground">Household income and expenditure survey · fieldwork monitoring desk</p>
+          </div>
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <p className="text-sm text-muted-foreground">
@@ -255,21 +262,27 @@ export function Desk({ initial }: { initial: FieldworkSnapshot }) {
         )}
       </main>
 
-      <footer className="mt-8 border-t py-4 text-xs text-muted-foreground">
-        <p>
-          Files read: {snapshot.meta.filesUsed.join(", ") || "none"}.
-          {snapshot.meta.filesIgnored.length > 0
-            ? ` Left unread: ${snapshot.meta.filesIgnored.length} other data file${snapshot.meta.filesIgnored.length === 1 ? "" : "s"}.`
-            : ""}
-          {snapshot.meta.filesSkipped.length > 0
-            ? ` Skipped ${snapshot.meta.filesSkipped.length} large or unsupported files.`
-            : ""}
-        </p>
-        <p className="mt-1">
-          {formatNumberSafe(filtered.reduce((sum, interview) => sum + (interview.members ?? 0), 0))} persons are listed
-          on started rosters in this view. That is a fieldwork count, not a population estimate.
-        </p>
-      </footer>
+      <div className="mt-auto">
+        <footer className="mt-8 border-t py-4 text-xs text-muted-foreground">
+          <p>
+            Files read: {snapshot.meta.filesUsed.join(", ") || "none"}.
+            {snapshot.meta.filesIgnored.length > 0
+              ? ` Left unread: ${snapshot.meta.filesIgnored.length} other data file${snapshot.meta.filesIgnored.length === 1 ? "" : "s"}.`
+              : ""}
+            {snapshot.meta.filesSkipped.length > 0
+              ? ` Skipped ${snapshot.meta.filesSkipped.length} large or unsupported files.`
+              : ""}
+          </p>
+          <p className="mt-1">
+            {formatNumberSafe(filtered.reduce((sum, interview) => sum + (interview.members ?? 0), 0))} persons are listed
+            on started rosters in this view. That is a fieldwork count, not a population estimate.
+          </p>
+          <p className="mt-1">Border in the manner of pandanus weaving, with a sand-drawing spiral beside the title.</p>
+        </footer>
+        <div className="pattern-bleed">
+          <MatBand id="mat-foot" className="block h-11 w-full" />
+        </div>
+      </div>
 
       <LoadDialog open={loadOpen} onOpenChange={setLoadOpen} onLoad={(next) => {
         setSnapshot(next);

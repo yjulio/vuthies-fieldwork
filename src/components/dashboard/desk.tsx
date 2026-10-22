@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { CaseSheet } from "@/components/dashboard/case-sheet";
 import { CasesView } from "@/components/dashboard/cases-view";
+import { CollectionBar } from "@/components/dashboard/collection-bar";
 import { formatDate } from "@/components/dashboard/format";
 import { GeographyView } from "@/components/dashboard/geography-view";
 import { LoadDialog } from "@/components/dashboard/load-dialog";
@@ -12,7 +13,7 @@ import { OpsView } from "@/components/dashboard/ops-view";
 import { QualityView } from "@/components/dashboard/quality-view";
 import { RoundsView } from "@/components/dashboard/rounds-view";
 import { TeamsView } from "@/components/dashboard/teams-view";
-import { applyFilters, bucketOptions, flagOptions } from "@/lib/fieldwork/metrics";
+import { applyFilters, bucketOptions, collectionForScope, collectionProgress, flagOptions } from "@/lib/fieldwork/metrics";
 import { BUCKET_LABEL, FLAG_LABEL } from "@/lib/suso/codes";
 import { EMPTY_FILTERS, type FieldworkSnapshot, type Filters } from "@/lib/fieldwork/types";
 
@@ -54,6 +55,17 @@ export function Desk({ initial }: { initial: FieldworkSnapshot }) {
   const buckets = bucketOptions(snapshot.interviews);
   const flags = flagOptions(snapshot.interviews);
   const activeFilters = countFilters(filters);
+  const overallCollection = useMemo(
+    () => collectionProgress(snapshot.interviews, snapshot.assignments, snapshot.meta.targetHouseholds),
+    [snapshot],
+  );
+  const scopedCollection = useMemo(() => {
+    if (!filters.province && !filters.island && !filters.round) return null;
+    return collectionForScope(snapshot.interviews, snapshot.assignments, filters, snapshot.meta.targetHouseholds);
+  }, [snapshot, filters]);
+  const scopeLabel = [filters.province, filters.island, filters.round ? `Round ${filters.round}` : ""]
+    .filter(Boolean)
+    .join(" · ");
 
   function patch(next: Partial<Filters>) {
     setFilters((current) => ({ ...current, ...next }));
@@ -103,6 +115,8 @@ export function Desk({ initial }: { initial: FieldworkSnapshot }) {
           <p className="mt-1 text-muted-foreground">{snapshot.meta.publishedDesign.note}</p>
         )}
       </div>
+
+      <CollectionBar overall={overallCollection} view={scopedCollection} viewLabel={scopeLabel || null} />
 
       <div className="mt-4 flex flex-wrap gap-2">
         {VIEWS.map((item) => (

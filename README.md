@@ -4,7 +4,7 @@ Monitoring desk for the Vanuatu Household Income and Expenditure Survey. It read
 
 The Headquarters file `VUTHIES_2026_2_Tabular_All_20261021T2258Z.zip` was not available in this environment. The desk opens on a **demonstration extract** with the same file layout. Those counts are synthetic. Load the real zip before using any figure as VNSO progress.
 
-The published survey design is 5,280 households across 32 rounds. That figure is shown only as context. Every count on the desk comes from the file you load. The Rounds page compares all 32 rounds: workload, approval and response rates, active time, a province heatmap, household result, and quality flags.
+The published survey design is 5,280 households across 32 rounds. That figure is shown only as context. Every count on the desk comes from the file you load. Overall collection is the share of households on live assignments that an interviewer has already submitted, including cases waiting on a supervisor or headquarters. The Rounds page compares all 32 rounds: workload, approval and response rates, active time, a province heatmap, household result, and quality flags.
 
 ## Run
 

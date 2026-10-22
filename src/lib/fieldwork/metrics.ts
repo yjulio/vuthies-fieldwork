@@ -1,6 +1,20 @@
 import { BUCKET_LABEL, FLAG_LABEL, SUBMITTED_STATUSES } from "@/lib/suso/codes";
 import type { Assignment, FieldworkSnapshot, Filters, Interview } from "@/lib/fieldwork/types";
 
+export type CollectionProgress = {
+  collected: number;
+  hqApproved: number;
+  sample: number | null;
+  rate: number | null;
+  remaining: number | null;
+};
+
+export type CollectionScope = {
+  province: string;
+  island: string;
+  round: string;
+};
+
 export type Kpis = {
   households: number;
   target: number | null;
@@ -103,6 +117,51 @@ export function applyFilters(interviews: Interview[], filters: Filters): Intervi
       .toLowerCase();
     return haystack.includes(query);
   });
+}
+
+export function collectionProgress(
+  interviews: Interview[],
+  assignments: Assignment[],
+  target: number | null,
+): CollectionProgress {
+  const collected = interviews.filter((interview) => SUBMITTED_STATUSES.has(interview.status)).length;
+  const hqApproved = interviews.filter((interview) => interview.status === 130).length;
+  const openedIds = new Set(interviews.map((interview) => interview.assignmentId).filter(Boolean));
+  const unopened = assignments
+    .filter((assignment) => !assignment.deleted && !assignment.archived && !openedIds.has(assignment.id))
+    .reduce((sum, assignment) => sum + (assignment.quantity ?? 1), 0);
+  const sample = target ?? interviews.length + unopened;
+  return {
+    collected,
+    hqApproved,
+    sample: sample > 0 ? sample : null,
+    rate: sample > 0 ? collected / sample : null,
+    remaining: sample > 0 ? Math.max(0, sample - collected) : null,
+  };
+}
+
+export function collectionForScope(
+  interviews: Interview[],
+  assignments: Assignment[],
+  scope: CollectionScope,
+  target: number | null,
+): CollectionProgress {
+  if (!scope.province && !scope.island && !scope.round) {
+    return collectionProgress(interviews, assignments, target);
+  }
+  const matchedInterviews = interviews.filter((interview) => matchesScope(interview, scope));
+  const matchedAssignments = assignments.filter((assignment) => matchesScope(assignment, scope));
+  return collectionProgress(matchedInterviews, matchedAssignments, null);
+}
+
+function matchesScope(
+  row: { province: string | null; island: string | null; round: number | null },
+  scope: CollectionScope,
+): boolean {
+  if (scope.province && row.province !== scope.province) return false;
+  if (scope.island && row.island !== scope.island) return false;
+  if (scope.round && String(row.round ?? "") !== scope.round) return false;
+  return true;
 }
 
 export function kpis(interviews: Interview[], assignments: Assignment[], target: number | null): Kpis {

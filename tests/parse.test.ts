@@ -4,7 +4,8 @@ import { buildDemoFiles } from "../src/lib/demo/build";
 import { parseSurveyExport } from "../src/lib/suso/parse";
 import { parseDurationMinutes, parseDelimited } from "../src/lib/suso/table";
 import { unzipSurvey, zipTextFiles } from "../src/lib/suso/zip";
-import { kpis } from "../src/lib/fieldwork/metrics";
+import { collectionForScope, collectionProgress, kpis } from "../src/lib/fieldwork/metrics";
+import { SUBMITTED_STATUSES } from "../src/lib/suso/codes";
 import { roundComparison } from "../src/lib/fieldwork/rounds";
 
 test("duration uses Survey Solutions DD.HH:MM:SS", () => {
@@ -60,6 +61,35 @@ test("demonstration extract parses into a fieldwork snapshot", () => {
   assert.ok(rounds[0].hqApproved / rounds[0].households > (rounds[19].hqApproved / rounds[19].households));
   assert.equal(rounds[31].households, 0);
   assert.ok(rounds[20].unopened > 0);
+
+  const collection = collectionProgress(snapshot.interviews, snapshot.assignments, snapshot.meta.targetHouseholds);
+  const submitted = snapshot.interviews.filter((interview) => SUBMITTED_STATUSES.has(interview.status)).length;
+  assert.equal(collection.sample, 660);
+  assert.equal(collection.collected, submitted);
+  assert.equal(collection.collected + (collection.remaining ?? 0), 660);
+  assert.ok(collection.rate != null && collection.rate > 0.4 && collection.rate < 0.95);
+  assert.ok(collection.hqApproved === summary.hqApproved);
+
+  const shefa = collectionForScope(
+    snapshot.interviews,
+    snapshot.assignments,
+    { province: "Shefa", island: "", round: "" },
+    snapshot.meta.targetHouseholds,
+  );
+  const shefaSubmitted = snapshot.interviews.filter(
+    (interview) => interview.province === "Shefa" && SUBMITTED_STATUSES.has(interview.status),
+  ).length;
+  assert.equal(shefa.collected, shefaSubmitted);
+  assert.ok(shefa.sample != null && shefa.sample < 660 && shefa.sample >= shefaSubmitted);
+
+  const future = collectionForScope(
+    snapshot.interviews,
+    snapshot.assignments,
+    { province: "", island: "", round: "32" },
+    snapshot.meta.targetHouseholds,
+  );
+  assert.equal(future.collected, 0);
+  assert.equal(future.sample, null);
 });
 
 test("zip roundtrip keeps the cover file", async () => {

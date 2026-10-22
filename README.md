@@ -15,6 +15,23 @@ npm run dev
 
 Open [http://127.0.0.1:4721](http://127.0.0.1:4721).
 
+## Publish on GitHub Pages
+
+The app exports a static site (`out/`) and deploys with GitHub Actions.
+
+1. Create a GitHub repository and push this project to its `main` branch.
+2. In the repository, open Settings → Pages and set the source to **GitHub Actions**.
+3. The workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) runs on each push to `main`.
+
+A project site is published at `https://<user>.github.io/<repository>/`. A repository named `<user>.github.io` is published at `https://<user>.github.io/`.
+
+To preview the export locally:
+
+```bash
+npm run build
+npx --yes serve out -p 4722
+```
+
 ## Load the real export
 
 In the desk, choose **Load export** and drop the Tabular zip from Survey Solutions Headquarters. Parsing happens in the browser. Diary and income files larger than 40 MB are skipped. The zip is not uploaded.
